@@ -1,0 +1,13 @@
+
+{
+  "manifest_version": 3,
+  "name": "Loomio - Personal New Tab",
+  "version": "1.0.0",
+  "description": "Your personal productivity dashboard with tasks, notes, shortcuts, and a Pomodoro timer.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "host_permissions": [
+    "https://*.vercel.app/*"
+  ]
+}
